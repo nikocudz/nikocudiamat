@@ -177,6 +177,28 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
 
+.portfolio-section .item-img-1 {
+	width: 66%;
+}
+
+.portfolio-section .phonepera {
+	text-align: center;
+}
+
+.website {
+	position: unset !important;
+}
+
+/*.phonepera-bg {
+    background-image: url(../../images/phonepera.png);
+    width: 100%;
+    height: -webkit-fill-available;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
 
 /* ---------------------------------
 6. ABOUT SECTION
