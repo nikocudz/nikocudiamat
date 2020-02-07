@@ -129,7 +129,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
+	z-index: 1;background-image: url(../../images/header.jpg); background-position-y: -280px;
+	background-repeat: no-repeat;}
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -161,7 +162,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section{ padding-bottom: 0; }
 
-.portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; margin-left: 90px; }
+.portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
@@ -185,19 +186,13 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	text-align: center;
 }
 
-.website {
-	position: unset !important;
+.portfolio-section .website {
+	text-align: center;
 }
 
-/*.phonepera-bg {
-    background-image: url(../../images/phonepera.png);
-    width: 100%;
-    height: -webkit-fill-available;
-    background-size: cover;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-}*/
+.portfolio-section .rpmc {
+	text-align: center;
+}
 
 
 /* ---------------------------------
@@ -249,7 +244,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
-	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+	background-image: url(../../images/footer.jpg); color: #fff; background-position-y: -508px }
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
