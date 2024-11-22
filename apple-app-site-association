@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appID": "S8Z9NWC7VY.com.tinbostaging.distribution",
+                "paths": [ "/subscriber/reset-password*" ]
+            }
+        ]
+    }
+}
